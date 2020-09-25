@@ -1,4 +1,4 @@
-@echo off
+dir
 cd jenkins/target
-set PATH=%JAVA_HOME%\bin;%PATH%
+dir
 java -jar jenkins-0.0.1-SNAPSHOT.jar
